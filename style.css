@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+#wrapper {
+    margin: auto;
+    width: 600px;
+    height: 750px;
+    background: #93b4e5;
+    padding: 10px 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+#wrapper2 {
+    margin: auto;
+    position: relative;
+    height: 650px;
+    width: 500px;
+}
+
+nav img {
+    width: 110px;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+img:nth-child(1) {
+    width: 200px;
+    margin-left: -70px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav h3 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#select1 {
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    font-family: arial;
+}
+
+#wrapper div {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#wrapper2 div {
+    background: #416ba92e;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#wrapper2 div input[type="number"] {
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 12px;
+    width: 200px;
+}
+
+.displayNone {
+    display: none;
+}
+
+#compounded1, #compounded2, #compounded3, #compounded4, #currency1, #currency2, #currency3, #currency4 {
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    font-family: arial;
+}
+
+button {
+    outline: none;
+    border: 0;
+    padding: 12px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #00000073;
+    color: white;
+}
+
+#wrapper div p {
+    text-align: left;
+    padding: 18px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#wrapper2 div input[type="number"]::placeholder {
+    opacity: 0.5;
+}
